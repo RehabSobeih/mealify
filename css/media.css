@@ -1,0 +1,233 @@
+/* start home */
+@media screen and (max-width:600px){
+    .home  .navbar {
+        display: block;
+        text-align: center;
+    }
+     .home .navbar ul{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+     }
+    .home .contianer .text{
+        width: 90%;
+        text-align: center;
+    }
+    .home .contianer .pic{
+        width: 90%;
+    }
+    .home .contianer .mid{
+        display: block;
+    }.home .text {
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* end home */
+/* start chef section  */
+ @media screen and (max-width:600px){
+    .contianer .chef .flx{
+        display: block;
+        width: 100%;
+    }
+    .contianer .chef .flx .items{
+        width: 100%;
+    }
+    .contianer .chef .flx .items .photo img{
+        width: 100%;
+        display: block;
+    }
+} 
+ @media screen and (min-width:601px){
+    .contianer .chef .flx{
+        display: block;
+        width: 100%;
+    }
+    .contianer .chef .flx .items{
+        width: 100%;
+    }
+    .contianer .chef .flx .items .photo img{
+        width: 100%;
+        display: block;
+    }
+} 
+@media screen and (min-width:769px){
+    .contianer .chef .flx{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+        width: 100%;
+    }
+    .contianer .chef .flx .items h3{
+          text-align: center;
+    }
+    .contianer .chef .flx .items{
+        width: 48%;
+    }
+}
+@media screen and (min-width:1200px){
+    .contianer .chef .flx{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .contianer .chef .flx .items{
+        width: 32%;
+    }
+    .contianer .chef .flx .items .photo img{
+        width: 100%;
+    
+    }
+}
+/* end chef section */
+/* start gallery section */
+@media screen and (max-width:600px){
+    .glry .contianer .gallery{
+        columns: 1;
+    }
+} 
+ @media screen and (min-width:601px){
+    .glry .contianer .gallery{
+        columns: 1;
+    }
+} 
+@media screen and (min-width:769px){
+    .glry .contianer .gallery{
+        columns: 2;
+    }
+}
+@media screen and (min-width:1200px){
+    .glry .contianer .gallery{
+        columns: 3;
+    }  
+}
+/* end gallery section */
+ /* start contact section  */
+ @media screen and (max-width:600px){
+    .contianer .contact .data ul li{
+        width: 100%;
+    }
+    .contianer form .area input{
+        width: 95%;
+       
+    }
+} 
+ @media screen and (min-width:601px){
+    .contianer .contact .data ul li{
+        width: 100%;
+    }
+    .contianer form .area input{
+        width: 95%;
+       
+    }
+} 
+@media screen and (min-width:769px){
+    .contianer .contact .data ul li{
+        width: 43%;
+        display: flex;
+        flex-direction: row;
+        display: inline-flex; 
+    }
+    .contianer form .area input{
+        width: 49%;
+    }
+}
+@media screen and (min-width:1200px){
+    .contianer .contact .data ul li{
+        width: 47%;
+    }
+    .contianer form .area input{
+        width: 49%;
+    }
+}
+/* end contact section  */
+/* start the last section */
+@media screen and (max-width:600px){
+    .last .contianer{
+        display: block;
+    }
+    .last .contianer .meal{
+        width: 95%;
+       }
+       .last .contianer .sub{
+        width: 95%;
+     }
+     .last .contianer .sub .layout{
+       display: block;
+     }
+     .last .contianer .auto{
+        display: block;
+     }
+     .last .contianer  .auto .auto-btn button{
+    margin: auto;
+    } 
+     .last .contianer .get{
+        width: 95%;
+     }
+} 
+ @media screen and (min-width:601px){
+    .last .contianer{
+        display: block;
+    }
+    .last .contianer .meal{
+        width: 95%;
+       }
+       .last .contianer .sub{
+        width: 95%;
+     }
+     .last .contianer .sub .layout{
+       display: block;
+     }
+     .last .contianer .auto{
+        display: block;
+     }
+     .last .contianer .get{
+        width: 95%;
+     }
+} 
+@media screen and (min-width:769px){
+    .last .contianer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .last .contianer .meal{
+        width: 42%;
+       }
+       .last .contianer .sub{
+        width: 95%;
+        order: 2;
+     }
+     .last .contianer .sub .layout{
+        display: flex;
+      }
+    
+     .last .contianer .get{
+        width: 42%;
+        order: 1;
+     }
+}
+@media screen and (min-width:1200px){
+    .last .contianer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .last .contianer .meal{
+        width: 24%;
+       }
+       .last .contianer .sub{
+        width: 48%;
+        order: 1;
+     }
+     .last .contianer .sub .layout{
+        display: flex;
+      }
+    
+     .last .contianer .get{
+        width: 24%;
+        order: 2;
+     }
+}
